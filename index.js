@@ -40,3 +40,20 @@ const pizzaToppings_2 = ["Pineapple", "Olives", "Anchovies"];
 // Your code here
 const controversialPizzaToppings = [...pizzaToppings];
 console.log(controversialPizzaToppings);
+
+//Exercise 5
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+const car_2 = {
+  make: "Audi",
+  model: "q5",
+};
+
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+// Your code here
+const myCar = { ...car_2 };
+myCar.model = "q7";
+
+console.log(car_2);
+console.log(myCar);
