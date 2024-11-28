@@ -86,3 +86,17 @@ const nounAdjective = (noun = "cat", adjective = "white") => {
 };
 
 nounAdjective();
+
+//Exercise 9
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = "tasty";
+
+if (pizza === "tasty") {
+  console.log("yum");
+} else {
+  console.log("yuck");
+}
+
+// Your code here
+let ternaryPizza = "tasty" ? console.log("ymm") : console.log("yuck");
